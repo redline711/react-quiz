@@ -6,9 +6,7 @@ const MenuToggle = props => {
 	if (props.isOpen) {
 		cls.push(classes.open)
 	}
-	return (
-			<i className={cls.join(' ')} onClick={props.onToggle}/>
-	)
+	return <i className={cls.join(' ')} onClick={props.onToggle} />
 }
 
 export default MenuToggle

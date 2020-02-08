@@ -15,12 +15,16 @@
 
 .FinishedQuiz ul li span {
 	margin-left: 10px;
+	height: 15px;
+	width: 15px;
+	background-size: 15px 15px;
+	background-color: #fff;
 }
 
 .success {
-	color: rgba(161, 240, 69, 0.7);
+	background-image: url(../../static/images/check-solid.svg);
 }
 
 .error {
-	color: rgba(240, 87, 108, 0.7);
+	background-image: url(../../static/images/times-solid.svg);
 }
